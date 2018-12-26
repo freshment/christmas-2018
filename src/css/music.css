@@ -1,0 +1,28 @@
+.music-container {
+  position: relative;
+  top: 50px;
+  left: -30px;
+  transition: all 1s;
+  cursor: pointer;
+}
+.music-container .round-claus {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  transition: all 1s;
+}
+.music-container .musical-notation {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 58px;
+  top: 22px;
+  z-index: 10;
+  transition: all 1s linear;
+  transform: rotate(22deg);
+  animation: shrink 3s linear infinite;
+}
+.music-container .pause {
+  transform: rotate(-22deg);
+  animation: none;
+}
